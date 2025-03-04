@@ -25,7 +25,6 @@ class Base:
         url = self.driver.current_url
         print(f'Current url: {url}')
 
-
     """Method assert url"""
 
     def assert_url(self, expected_url):
@@ -54,7 +53,6 @@ class Base:
         print(f'product info: {product_info}')
         return product_info
 
-
     """ Method get product price"""
 
     def get_product_price(self, locator):
@@ -69,9 +67,4 @@ class Base:
             return True
         print(f'ERROR: {word} not in description')
         return False
-
-
-
-
-
 

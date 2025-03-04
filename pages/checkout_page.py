@@ -5,8 +5,8 @@ from base.base_class import Base
 
 class CheckoutPage(Base):
     URL = 'https://best-magazin.com/simplecheckout/'
-    FIRST_NAME = 'Имя'
-    LAST_NAME = 'Фамилия'
+    FIRST_NAME = 'Иван'
+    LAST_NAME = 'Иванов'
     CITY = 'Москва'
     ADDRESS = 'просп. Маршала Жукова, 1'
 
@@ -31,6 +31,7 @@ class CheckoutPage(Base):
         self.price = ''
 
     # Getters
+    # Use get_clickable method from Base class
 
     # Actions
     def input_email(self):
@@ -91,4 +92,4 @@ class CheckoutPage(Base):
         self.input_shipping_address()
         self.check_for_create_order_button()
 
-
+        self.get_screenshot()

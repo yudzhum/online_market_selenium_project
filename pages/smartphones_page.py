@@ -18,6 +18,7 @@ class SmartphonesPage(Base):
     blue_color_checkbox = '//button[@id="ocf-v-16-4-102-1"]'
     memory_12_checkbox = '//button[@id="ocf-v-264-2-2222398550-1"]'
     filter_button = '//button[@class="ocf-btn ocf-btn-block ocf-search-btn-static"]'
+
     first_phone_on_page = '//div[@class="cart"]'
     products_on_page = '//div[@class="row products_category"]'
     info_first_phone_on_page = '//span[@itemprop="name"]'
@@ -79,7 +80,7 @@ class SmartphonesPage(Base):
         """
         Select smartphone:
         samsung
-        black color
+        blue color
         12 GB RAM memory
         """
         self.get_current_url()
@@ -100,8 +101,3 @@ class SmartphonesPage(Base):
 
         self.select_first_phone_on_page()
         self.enter_cart()
-
-
-
-
-
