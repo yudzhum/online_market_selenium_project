@@ -2,6 +2,8 @@ from base.base_class import Base
 
 
 class MainPage(Base):
+    """Class for main catalog page"""
+
     URL = 'https://best-magazin.com/'
 
     # Locators

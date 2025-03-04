@@ -7,6 +7,8 @@ from base.base_class import Base
 
 
 class SmartphonesPage(Base):
+    """Class for smarthpones catalog page"""
+
     URL = 'https://best-magazin.com/smartfoni/'
     BRAND = 'samsung'
     RAM = '12'

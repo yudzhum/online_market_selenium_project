@@ -4,6 +4,8 @@ from base.base_class import Base
 
 
 class CheckoutPage(Base):
+    """Class for checkout page"""
+
     URL = 'https://best-magazin.com/simplecheckout/'
     FIRST_NAME = 'Иван'
     LAST_NAME = 'Иванов'

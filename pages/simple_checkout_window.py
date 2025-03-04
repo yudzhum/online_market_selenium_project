@@ -6,6 +6,7 @@ from base.base_class import Base
 
 
 class SimpleCheckoutWindow(Base):
+    """Class for pop up checkout window"""
 
     # Locators
     window = '//div[@id="popup-okno-inner"]'
