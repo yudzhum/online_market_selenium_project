@@ -78,6 +78,7 @@ class SmartphonesPage(Base):
     def select_smartphone_with_parameters(self):
         """
         Select smartphone:
+        samsung
         black color
         12 GB RAM memory
         """
